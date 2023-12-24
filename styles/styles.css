@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f13c20;
+    color: #f13c20;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f13c20;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 100%; /* Изменено для адаптивности */
+    height: auto;
+    max-width: 500px; /* Ограничиваем максимальную ширину изображения */
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f13c20;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f13c20;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-img {
+    margin-left: 5%; /* Изменено для адаптивности */
+    width: 90%; /* Изменено для адаптивности */
+    height: auto;
+}
+
+.images {
+    width: 90%; /* Изменено для адаптивности */
+    height: auto;
+    margin: 100px auto; /* Центрируем изображение */
+    display: block;
+}
+
+@media only screen and (max-width: 100px) {
+    .main-img, .images {
+        width:  100%;
+        margin-left: 0px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
